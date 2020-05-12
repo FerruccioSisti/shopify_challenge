@@ -10,3 +10,13 @@ User.create(email: 'ferrucciosisti@gmail.com',
     password: 'password',
     password_confirmation: 'password',
     admin: true)
+
+25.times do |i|
+    post = Post.new
+    post.title = Faker::Lorem.sentence(word_count: 3, random_words_to_add: 7)
+    post.caption = Faker::Lorem.paragraph_by_chars(number: 1500)
+    post.user = User.first
+    post.image.attach(io: open("https://picsum.photos/800/500"), filename: "#{i}_image.jpg")
+    post.views = Faker::Number.between(from: 1, to: 5000)
+    post.save
+end
