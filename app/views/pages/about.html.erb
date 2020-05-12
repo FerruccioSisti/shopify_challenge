@@ -1,15 +1,24 @@
 <div class='container'>
     <div class='jumbotron'>
-        <h1 class='display-4'>About Me</h1>
+        <h1 class='display-4'>About This Project</h1>
         <div class='row'>
             <p style='text-align: justify'>
-                Here is some general 'about' info
+                This project is based on the <%= link_to "Fall 2020 Shopify Coding Challenge", "https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit", target: "_blank" %>.
+                You can view the GitHub repository for the contents of this project <%= link_to "here", "https://github.com/FerruccioSisti/shopify_challenge", target: "_blank"%>.
+                This project is basically a local version of an Image Repository, similar to something like imgur.
+                The two features I chose to implement for this application are the ADD and DELETE
+                image(s) features. I felt that I could implement these two features the best using
+                Ruby on Rails.
+                <br/><br/>
+                Once you are signed in to an account, you are able to create a new post which involves the
+                user uploading an image, creating a title, a caption, and setting the privacy to private
+                or public. After submitting, you can view your own posts by clicking the link in the
+                NAV-bar at the top of the page. If your post was set to public, it will be viewable to everybody
+                who visits the web application home page.
+                <br/><br/>
+                If you click on your own post, you can edit and delete them. You are able to change any of the properties.
+                If you are an admin, you are able to delete another persons post (if it breaks rules or is inappropriate or something idk).
             </p>
             <hr class='my-4'>
-        </div>
-        <div class="btn-group" role="group" aria-label="Alternative media's">
-          <button type="button" onclick='window.location.href = "https://github.com/FerruccioSisti"' class="btn btn-secondary">GitHub</button>
-          <button type="button" onclick='window.location.href = "https://sisti.myweb.cs.uwindsor.ca"' class="btn btn-secondary">Personal Website</button>
-        </div>
     </div>
 </div>
