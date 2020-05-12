@@ -1,0 +1,13 @@
+
+<%= form_with model: post do |f| %>
+  <div class="form-inputs">
+    <%= f.text_field :title, class:'form-control string' %>
+    <%= f.rich_text_area :caption %>
+    <%= f.label :image, class:'form-control' %>
+        <%= f.file_field :image %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
