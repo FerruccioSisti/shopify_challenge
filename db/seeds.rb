@@ -18,5 +18,6 @@ User.create(email: 'ferrucciosisti@gmail.com',
     post.user = User.first
     post.image.attach(io: open("https://picsum.photos/800/500"), filename: "#{i}_image.jpg")
     post.views = Faker::Number.between(from: 1, to: 5000)
+    post.visibility = true
     post.save
 end
