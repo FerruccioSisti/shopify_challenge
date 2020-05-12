@@ -7,6 +7,10 @@ class PostsController < ApplicationController
     @posts = Post.all.order("created_at DESC").paginate(page: params[:page])
   end
 
+  def user_posts
+    @posts = Post.all.order("created_at DESC").paginate(page: params[:page])
+  end
+  
   # GET /posts/1
   # GET /posts/1.json
   def show
@@ -72,6 +76,6 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:title, :caption, :image)
+      params.require(:post).permit(:title, :caption, :image, :visibility)
     end
 end
