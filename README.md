@@ -1,8 +1,7 @@
 # Shopify Backend Coding Challenge
 
-This project is based on the guidelines provided in <a href="https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit" target="_blank"> Shopify's Fall 2020 Backend Coding Challenge</a>.
+This project is based on the guidelines provided in <a href="https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit" target="_blank"> Shopify's Fall 2020 Backend Coding Challenge</a>. This project utilizes Ruby on Rails and postgres to function.
 
-<br/>
 <h3>Overview</h3>
 The gist of this project is that it is a localized image repository. Users will be able to create an account, and upload/delete their images. Each posting allows an image, a title, and a caption. By using the navbar at the top of the page, users can view all images available, or just their own. They are also able to view a quick 'About' page that gives this same sort of synopsis of the web app.
 
@@ -16,9 +15,7 @@ When a user wants to create a post, they first need to log in. Once logged in, y
 
 <br/>
 <h3>Viewing posts</h3>
-If you would like to view posts, you can do so by clicking the 'Home' or 'Image Repository' links at the top-left of the page you are currently on. Viewing posts this way will not display any that are currently private (including your own). If you would like to view your own posts (including those set to private), click the 'My Images' link at the top of the page.
-
-To expand a post, simply click on the title of said post.
+If you would like to view posts, you can do so by clicking the 'Home' or 'Image Repository' links at the top-left of the page you are currently on. Viewing posts this way will not display any that are currently private (including your own). If you would like to view your own posts (including those set to private), click the 'My Images' link at the top of the page. To expand a post, simply click on the title of said post.
 
 <br/>
 <h3>Editing and deleting posts</h3>
