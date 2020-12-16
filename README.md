@@ -1,6 +1,6 @@
 # Shopify Backend Coding Challenge
 
-This project is based on the guidelines provided in <a href="https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit" target="_blank"> Shopify's Fall 2020 Backend Coding Challenge</a>. This project utilizes Ruby on Rails and postgres to function.
+This project is based on the guidelines provided in <a href="https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit" target="_blank"> Shopify's Summer 2021 Backend Coding Challenge</a>. This project utilizes Ruby on Rails and postgres to function.
 
 <h3>Overview</h3>
 The gist of this project is that it is a localized image repository. Users will be able to create an account, and upload/delete their images. Each posting allows an image, a title, and a caption. By using the navbar at the top of the page, users can view all images available, or just their own. They are also able to view a quick 'About' page that gives this same sort of synopsis of the web app.
